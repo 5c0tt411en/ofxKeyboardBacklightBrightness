@@ -9,29 +9,7 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>5223CF7A099BB0A9CB8AF9E6</key>
-			<dict>
-				<key>fileRef</key>
-				<string>214FC948A57668B35D50B764</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>214FC948A57668B35D50B764</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>file</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxKeyboardBacklightBrightness.h~</string>
-				<key>path</key>
-				<string>../../../addons/ofxkeyboardBacklightBrightness/src/ofxKeyboardBacklightBrightness.h~</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>22113CC69ADA1B68C494F948</key>
+			<key>A6057B6723E8DAE2F894EC73</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -42,17 +20,16 @@
 				<key>name</key>
 				<string>ofxKeyboardBacklightBrightness.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxkeyboardBacklightBrightness/src/ofxKeyboardBacklightBrightness.h</string>
+				<string>../../../addons/ofxKeyboardBacklightBrightness/src/ofxKeyboardBacklightBrightness.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8A22D890C5F6ADC4F9479F54</key>
+			<key>3216778DC18B7633FD02CFF5</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>D4D058453DF62C3E9F9A5135</string>
-					<string>22113CC69ADA1B68C494F948</string>
-					<string>214FC948A57668B35D50B764</string>
+					<string>7FC7547A38DCE9B902D4933E</string>
+					<string>A6057B6723E8DAE2F894EC73</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -61,27 +38,27 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>7FDB434E52947A6220CF9240</key>
+			<key>B8CEEA69B3F96FF1AFC9281B</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>8A22D890C5F6ADC4F9479F54</string>
+					<string>3216778DC18B7633FD02CFF5</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>ofxkeyboardBacklightBrightness</string>
+				<string>ofxKeyboardBacklightBrightness</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>55C6C0ED21E0552C2D68B8E4</key>
+			<key>A6342B633C81C8155B933A6D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>D4D058453DF62C3E9F9A5135</string>
+				<string>7FC7547A38DCE9B902D4933E</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>D4D058453DF62C3E9F9A5135</key>
+			<key>7FC7547A38DCE9B902D4933E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>file</string>
@@ -92,7 +69,7 @@
 				<key>name</key>
 				<string>keyboardBacklightBrightness</string>
 				<key>path</key>
-				<string>../../../addons/ofxkeyboardBacklightBrightness/src/keyboardBacklightBrightness</string>
+				<string>../../../addons/ofxKeyboardBacklightBrightness/src/keyboardBacklightBrightness</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -100,7 +77,7 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>7FDB434E52947A6220CF9240</string>
+					<string>B8CEEA69B3F96FF1AFC9281B</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -487,8 +464,8 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../addons/ofxkeyboardBacklightBrightness/libs</string>
-						<string>../../../addons/ofxkeyboardBacklightBrightness/src</string>
+						<string>../../../addons/ofxKeyboardBacklightBrightness/libs</string>
+						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -547,8 +524,8 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../addons/ofxkeyboardBacklightBrightness/libs</string>
-						<string>../../../addons/ofxkeyboardBacklightBrightness/src</string>
+						<string>../../../addons/ofxKeyboardBacklightBrightness/libs</string>
+						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -608,8 +585,7 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>55C6C0ED21E0552C2D68B8E4</string>
-					<string>5223CF7A099BB0A9CB8AF9E6</string>
+					<string>A6342B633C81C8155B933A6D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
