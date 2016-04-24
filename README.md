@@ -3,14 +3,16 @@ openFrameworks addon that control macbook keyboard backlight brightness.
 
 ## Usage
 
-        ofxKeyboardBacklightBrightness keybackbri;
-        float kbb;
+        ofxKeyboardBacklightBrightness kbb;
+        int bLevel;
 
-        keybackbri.keyboardBacklightBrightness(kbb); //kbb should be 0 ~ 1.0
+        kbb.setup(); // setting up addon
+
+        kbb.keyboardBacklightBrightness(bLevel); //bLevel must be 0 ~ 4095
 
 ## Demo video
-[youtube demo video of example-fft](https://youtu.be/jp7_C1nlYPQ)
+[youtube demo video of example-audioReactive](https://youtu.be/jp7_C1nlYPQ)
 
-## Copy right
-Copyright 2015, Scott Allen([scottallen.ws](http://scottallen.ws)).
+## Copyright
+Copyright 2015-, Scott Allen([scottallen.ws](http://scottallen.ws)).
 Twitter:[@Scott_Allen__](https://twitter.com/#!/Scott_Allen__ "twitter@Scott_Allen__").
