@@ -8,9 +8,10 @@ openFrameworks addon that control macbook keyboard backlight brightness.
 
         kbb.setup(); // setting up addon
 
-        kbb.keyboardBacklightBrightness(bLevel); //bLevel must be 0 ~ 4095
+        kbb.setBrightness(bLevel); //bLevel must be 0 ~ 4095
 
 ## Demo video
+[youtube demo video of Keyboard&Display backlight controller with audio](https://youtu.be/64Zzr_8yLi8)
 [youtube demo video of example-audioReactive](https://youtu.be/jp7_C1nlYPQ)
 
 ## Copyright
